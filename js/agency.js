@@ -47,4 +47,10 @@
     $('.navbar').removeClass('d-none');
   })
 
+  //Particle ground
+  $('#particle').particleground({
+    dotColor: '#28a745',
+    lineColor: '#28a745'
+});
+
 })(jQuery); // End of use strict
